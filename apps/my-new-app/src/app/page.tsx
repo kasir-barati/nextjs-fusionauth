@@ -1,3 +1,4 @@
+import Typography from '@mui/material/Typography';
 import styles from './page.module.css';
 
 export default function Index() {
@@ -11,10 +12,10 @@ export default function Index() {
       <div className="wrapper">
         <div className="container">
           <div id="welcome">
-            <h1>
+            <Typography variant="h1">
               <span> Hello there, </span>
               Welcome my-new-app 👋
-            </h1>
+            </Typography>
           </div>
 
           <div id="hero" className="rounded">
