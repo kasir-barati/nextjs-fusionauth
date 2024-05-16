@@ -1,3 +1,4 @@
+import { Application } from '../shared/components/application/application.component';
 import './global.css';
 
 export const metadata = {
@@ -12,7 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Application>{children}</Application>
+      </body>
     </html>
   );
 }

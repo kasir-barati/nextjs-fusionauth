@@ -1,5 +1,6 @@
 import Typography from '@mui/material/Typography';
 import styles from './page.module.css';
+import { Notification } from '../shared/components/notification/notification.component';
 
 export default function Index() {
   /*
@@ -465,6 +466,7 @@ export default function Index() {
           </p>
         </div>
       </div>
+      <Notification />
     </div>
   );
 }
